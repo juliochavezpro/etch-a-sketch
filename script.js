@@ -5,10 +5,10 @@ const clearButton = document.getElementById('clear-btn');
 
 gridButton.addEventListener("click", createGrid);
 
+createGrid();
 
-function createGrid(tot) {
-    tot = prompt('How big is the grid?');
-    for (let i=0; i<tot; i++) {
+function createGrid() {
+    for (let i=0; i<255; i++) {
         const box = document.createElement('div');
         container.appendChild(box);
         box.classList.add('box');
@@ -26,6 +26,7 @@ function createGrid(tot) {
         }
 
     };
+    
 };
 
 

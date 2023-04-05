@@ -14,6 +14,8 @@
     flex-direction: column;
     height: 640px;
     width: 640px;
+    border-width: 1px;
+    border-color: black;
 }
 
 .hover {
